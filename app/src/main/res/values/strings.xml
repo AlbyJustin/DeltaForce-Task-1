@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Battle Command</string>
+    <string name="game_rules">Objective: Destroy all opponent ships.\n\nTurns: Players take turns.\n\nActions on your turn (choose one):\n1. Attack: Click a cell on the opponent\'s grid.\n2. Fortify: Move one of your *undamaged* ships to a new valid location on your grid.\n- Ships cannot move onto MISS/HIT locations or other ships.\n\nWinning: The first player to sink all opponent ships wins.</string>
+    <string name="game_desc">Battle Command is a strategic battle game where players must balance offense and defense. Inspired by classic naval combat, it introduces a unique \'Fortify\' mechanic, allowing players to reposition their fleet during the battle. Created by Pawan and Rishikesh.</string>
+</resources>
