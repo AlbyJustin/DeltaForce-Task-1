@@ -18,3 +18,7 @@ val AccentBlue = Color(0xFF448AFF)
 val AccentGreen = Color(0xFF69F0AE)
 val WhiteIsh = Color(0xFFFAFAFA)
 val DarkerGray = Color(0xFF212121)
+
+val GridBlueBackground = Color(0xFF60A5FA)
+val GridOrangeBackground = Color(0xFFFB923C)
+val NeutralGrayCell = Color(0xFFE0E0E0)
