@@ -41,6 +41,10 @@ import com.example.battlecommand.model.Ship
 import com.example.battlecommand.ui.theme.GridBlueBackground
 import com.example.battlecommand.ui.theme.GridOrangeBackground
 
+const val PREFS_GAME_HISTORY = "BattleCommandGameHistoryPrefs"
+const val KEY_PLAYER1_WINS = "player1_wins_count"
+const val KEY_PLAYER2_WINS = "player2_wins_count"
+
 fun initializeBoard(size: Int, ships: List<Ship>): List<List<CellState>> {
     val initialBoard = MutableList(size) { MutableList(size) { CellState.EMPTY } }
     ships.forEach { ship ->
